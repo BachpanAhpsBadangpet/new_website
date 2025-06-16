@@ -385,30 +385,35 @@
                 
                 <div class="admission-form">
                     <h3>Apply for Admission</h3>
-                    <form id="admissionForm">
+                    <form action="https://formsubmit.co/ahpsbachpan9@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Admission Application!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_autoresponse" value="Thank you for applying to AHPS Bachpan. We will contact you shortly.">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
                         <div class="form-group">
                             <label for="studentName">Student's Name *</label>
-                            <input type="text" id="studentName" name="studentName" required>
+                            <input type="text" id="studentName" name="Student Name" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="parentName">Parent's Name *</label>
-                            <input type="text" id="parentName" name="parentName" required>
+                            <input type="text" id="parentName" name="Parent Name" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="Email" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="phone">Mobile Number *</label>
-                            <input type="tel" id="phone" name="phone" required>
+                            <input type="tel" id="phone" name="Phone" required>
                         </div>
                         
                         <div class="form-group">
                             <label for="grade">Grade Level *</label>
-                            <select id="grade" name="grade" required>
+                            <select id="grade" name="Grade" required>
                                 <option value="">Select Grade Level</option>
                                 <optgroup label="Bachpan Global (Preschool)">
                                     <option value="playgroup">Playgroup</option>
@@ -433,7 +438,7 @@
                         
                         <div class="form-group">
                             <label for="state">State *</label>
-                            <select id="state" name="state" required>
+                            <select id="state" name="State" required>
                                 <option value="">Select State</option>
                                 <option value="delhi">Delhi</option>
                                 <option value="maharashtra">Maharashtra</option>
@@ -450,14 +455,14 @@
                         
                         <div class="form-group">
                             <label for="city">City *</label>
-                            <select id="city" name="city" required>
+                            <select id="city" name="City" required>
                                 <option value="">Select City</option>
                             </select>
                         </div>
                         
                         <div class="form-group">
                             <label for="message">Additional Message</label>
-                            <textarea id="message" name="message" rows="4" placeholder="Any specific requirements or questions..."></textarea>
+                            <textarea id="message" name="Message" rows="4" placeholder="Any specific requirements or questions..."></textarea>
                         </div>
                         
                         <button type="submit" class="btn btn-primary btn-lg">Submit Application</button>
@@ -515,22 +520,27 @@
                 
                 <div class="contact-form">
                     <h3>Send us a Message</h3>
-                    <form id="contactForm">
+                    <form action="https://formsubmit.co/ahpsbachpan9@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Contact Message!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_autoresponse" value="Thank you for contacting AHPS Bachpan. We'll respond soon.">
+                        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
                         <div class="form-row">
                             <div class="form-group">
-                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="text" name="Name" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" placeholder="Your Email" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
                             </div>
                         </div>
                         
                         <div class="form-group">
-                            <input type="text" name="subject" placeholder="Subject" required>
+                            <input type="text" name="Subject" placeholder="Subject" required>
                         </div>
                         
                         <div class="form-group">
-                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
                         </div>
                         
                         <button type="submit" class="btn btn-primary">Send Message</button>

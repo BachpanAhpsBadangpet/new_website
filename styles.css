@@ -475,6 +475,53 @@ section {
     font-size: 1.1rem;
 }
 
+.usps-section {
+  background: linear-gradient(to right, #0a75c2, #0e8bc7);
+  padding: 60px 0;
+  color: white;
+  text-align: center;
+}
+
+.usps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.usp-box {
+  padding: 20px;
+  border-radius: 12px;
+  color: #000;
+  background-color: #fff;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.usp-box:hover {
+  transform: translateY(-5px);
+}
+
+.usp-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.usp-box p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Optional color variants */
+.purple { background-color: #dcd8ff; }
+.purple-light { background-color: #e9e5ff; }
+.orange { background-color: #ffe0c4; }
+.blue { background-color: #c5efff; }
+.yellow { background-color: #fff8c5; }
+.peach { background-color: #ffddca; }
+
+
 /* Programs Section */
 .programs {
     background: var(--light-bg);
